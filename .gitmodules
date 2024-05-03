@@ -1,0 +1,3 @@
+[submodule "keyrune"]
+	path = keyrune
+	url = https://github.com/andrewgioia/keyrune.git

@@ -3,10 +3,18 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"get-submodules": "git submodule update --init --recursive",
+		"get-mtgjson": "curl https://mtgjson.com/api/v5/SetList.json -o SetList.json",
+		"generate-symbols": "node ./generators/generate_symbols.js",
+		"generate-mtgjson": "node ./generators/generate_mtgjson.js",
+		"build": "npm run get-submodules && npm run get-mtgjson && npm run generate-symbols && npm run generate-mtgjson && wrangler build",
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
 		"cf-typegen": "wrangler types"
+
+		
+
 	},
 	"dependencies": {
 		"@cloudflare/itty-router-openapi": "^1.0.1"

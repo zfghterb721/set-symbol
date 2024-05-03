@@ -171,3 +171,6 @@ dist
 .dev.vars
 
 .wrangler
+SetList.json
+src/mtg_json_setcode.json
+src/svg_data.json

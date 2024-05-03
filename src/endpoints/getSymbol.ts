@@ -3,7 +3,9 @@ import {
 	OpenAPIRouteSchema,
 	Query,
 } from "@cloudflare/itty-router-openapi";
-import { Task } from "../types";
+import svgData from "../svg_data.json";
+import { getSetCode } from "setNameDictionary";
+
 
 export class GetSetSymbol extends OpenAPIRoute {
 	static schema: OpenAPIRouteSchema = {
@@ -40,11 +42,19 @@ export class GetSetSymbol extends OpenAPIRoute {
 
 		// Implement your own object list here
 
-		const symbol = `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-  <path d="M8 14l4 4 4-4"/>
-</svg>`;
+		const setCode = getSetCode(setName);
+		const symbol = svgData[setCode];
+		if (!symbol) {
+			return new Response(
+				`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"></svg>`,
+				{
+					status: 200,
+					headers: {
+						"Content-Type": "image/svg+xml",
+					},
+				}
+			);
+		}
 
 		return new Response(symbol, {
 			status: 200,
