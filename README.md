@@ -1,11 +1,29 @@
-# Cloudflare Workers OpenAPI 3.1
+This repo grabs MTG set symbols and makes them publically available on a cloudflare worker for quick embedding in web apps. We use it to embed set symbols into our Shopify Pullsheets.
+## Requirements
+I run all this in linux, and have node v20.14.0 installed. You'll need a cloudflare account if you want to run/host this yourself.
+## Quick Start
+Pull in keyrune submodule
+```
+git submodule init 
+git submodule update
+```
 
-This is a Cloudflare Worker with OpenAPI 3.1 using [itty-router-openapi](https://github.com/cloudflare/itty-router-openapi).
+Install npm packages
+```
+npm install
+```
 
-This is an example project made to be used as a quick start into building OpenAPI compliant Workers that generates the
-`openapi.json` schema automatically from code and validates the incoming request to the defined parameters or request body.
+You can then run `chmod +x ./update.sh` and `./update.sh` which pulls in latest MTGJSON and keyrune data and builds out a JSON dictionary for the cloudflare worker to serve svg icons.
 
-## Get started
+After that you can run `npx wrangler dev` which will locally serve the api. You can then access icons via:
+`{baseurl}/symbol/mtg?setName=Bloomburrow`
+
+## Adding set alias
+This assumes that your setNames match MTGJSONs, depending on your software you may have your setnames formatted differently and need to add aliases to get the icons to work. Feel free to update the setNameDictionary object in setNameDictionary.ts to add setName aliases. This file uses typescript so you get some convenient LSP autocomplete to make sure you are entering valid setcodes.
+
+
+# Generic Cloudflare Notes
+## Deploy via Cloudflare
 
 1. Sign up for [Cloudflare Workers](https://workers.dev). The free tier is more than enough for most use cases.
 2. Clone this project and install dependencies with `npm install`
