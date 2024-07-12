@@ -8,12 +8,15 @@ const setList = JSON.parse(setListData);
 const mtgjsonLookup = {};
 
 // Iterate over each item in the data property
-setList.data.forEach(item => {
-    const { name, keyruneCode } = item;
-    mtgjsonLookup[name] = keyruneCode.toLowerCase();
+setList.data.forEach((item) => {
+  const { name, keyruneCode } = item;
+  mtgjsonLookup[name] = keyruneCode.toLowerCase();
 });
 
 // Write the output to mtgjsonlookup.json
-fs.writeFileSync('./src/mtg_json_setcode.json', JSON.stringify(mtgjsonLookup, null, 2));
+fs.writeFileSync(
+  './src/mtg_json_setcode.json',
+  JSON.stringify(mtgjsonLookup, null, 2)
+);
 
 console.log('mtg_json_setcode.json file generated successfully!');
