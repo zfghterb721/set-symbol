@@ -65,6 +65,7 @@ const setNameDictionary: SetNameDictionary = {
     'Core Set 2021 Prerelease Promos': 'm21',
     'Dark Ascension Prerelease Promos': 'dka',
     'Dominaria Prerelease Promos': 'dom',
+    'Innistrad: Midnight Hunt Commander': 'mic',
     'Magic 2019 Gift Pack': 'm19',
     'Magic 2019 Standard Showdown': 'pmei'
 };
