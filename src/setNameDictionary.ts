@@ -71,5 +71,6 @@ const setNameDictionary: SetNameDictionary = {
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
     'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr',
+    'Modern Horizons 3 Commander': 'm3c',
     
 };
