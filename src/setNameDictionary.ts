@@ -69,7 +69,7 @@ const setNameDictionary: SetNameDictionary = {
     'Magic 2019 Gift Pack': 'm19',
     'Magic 2019 Standard Showdown': 'pmei',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
-    'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr'
-    'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr'
+    'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
+    'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr',
     
 };
