@@ -1,6 +1,6 @@
 #/bin/bash
 #pull in the latest keyrune 
-git git submodule update --init --recursive
+git submodule update --init --recursive
 #download latest mtgjson set list
 wget -O SetList.json https://mtgjson.com/api/v5/SetList.json
 #this transforms the mtgjson data into a lookup json file
