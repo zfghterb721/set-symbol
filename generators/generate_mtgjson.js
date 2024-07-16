@@ -13,6 +13,13 @@ setList.data.forEach((item) => {
   mtgjsonLookup[name] = keyruneCode.toLowerCase();
 });
 
+const scrySets = JSON.parse(fs.readFileSync('./ScrySets.json', 'utf8'));
+
+scrySets.data.forEach((item) => {
+  const { name, code } = item;
+  mtgjsonLookup[name] = code.toLowerCase();
+});
+
 // Write the output to mtgjsonlookup.json
 fs.writeFileSync(
   './src/mtg_json_setcode.json',
