@@ -70,7 +70,7 @@ const setNameDictionary: SetNameDictionary = {
     'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr',
     'Innistrad: Midnight Hunt Commander': 'mic',
     'Kaladesh Prerelease Promos': 'kld',
-    '[Kamigawa: Neon Dynasty Commander': 'nec',
+    'Kamigawa: Neon Dynasty Commander': 'nec',
     'Magic 2019 Gift Pack': 'm19',
     'Magic 2019 Standard Showdown': 'pmei',
     'Modern Horizons 3 Commander': 'm3c',
