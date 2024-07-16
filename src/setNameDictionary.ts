@@ -38,6 +38,7 @@ const setNameDictionary: SetNameDictionary = {
     'Amonkhet Tokens': 'akh',
     'Amonkhet Prerelease Promos': 'akh',
     'Archenemy: Nicol Bolas Tokens': 'e01',
+    'Assassin\'s Creed': 'acr',
     'Avacyn Restored Tokens': 'avr',
     'Avacyn Restored Prerelease Promos': 'avr',
     'Battle for Zendikar Standard Series': 'bfz',
@@ -65,12 +66,13 @@ const setNameDictionary: SetNameDictionary = {
     'Core Set 2021 Prerelease Promos': 'm21',
     'Dark Ascension Prerelease Promos': 'dka',
     'Dominaria Prerelease Promos': 'dom',
+    'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr',
     'Innistrad: Midnight Hunt Commander': 'mic',
     'Magic 2019 Gift Pack': 'm19',
     'Magic 2019 Standard Showdown': 'pmei',
+    'Modern Horizons 3 Commander': 'm3c',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
-    'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr',
-    'Modern Horizons 3 Commander': 'm3c',
+    
     
 };
