@@ -76,6 +76,6 @@ const setNameDictionary: SetNameDictionary = {
     'Modern Horizons 3 Commander': 'm3c',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
-    
+    'Streets of New Capenna Commander': 'ncc',
     
 };
