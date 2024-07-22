@@ -76,7 +76,7 @@ const setNameDictionary: SetNameDictionary = {
     'Magic 2019 Standard Showdown': 'pmei',
     'Mystery Booster': 'mb1',
     'Modern Horizons 3 Commander': 'm3c',
-    'Outlaws of Thunder Junction: The Big Score', 'big',
+    'Outlaws of Thunder Junction: The Big Score': 'big',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
     'Streets of New Capenna Commander': 'ncc',
