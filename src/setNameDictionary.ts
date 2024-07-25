@@ -79,6 +79,7 @@ const setNameDictionary: SetNameDictionary = {
     'Outlaws of Thunder Junction: The Big Score': 'big',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
+    'Secret Lair Drop Series': 'sld',
     'Streets of New Capenna Commander': 'ncc',
     
 };
