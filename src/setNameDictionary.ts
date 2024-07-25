@@ -26,6 +26,7 @@ export const getSetCode = (setName: string): setKeys | undefined => {
 };
 
 const setNameDictionary: SetNameDictionary = {
+    '30th Anniversary Promos': '30a',
     'Dominaria': 'dom',
     'Wilds of Eldraine': 'woe',
     'Strixhaven: School of Mages': 'stx',
@@ -80,6 +81,7 @@ const setNameDictionary: SetNameDictionary = {
     'Outlaws of Thunder Junction: Breaking News': 'otp',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
+    'The Lord of the Rings: Tales of Middle-Earth Commander': 'ltc',
     'Secret Lair Drop Series': 'sld',
     'Streets of New Capenna Commander': 'ncc',
     
