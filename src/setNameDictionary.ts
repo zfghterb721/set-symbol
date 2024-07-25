@@ -77,6 +77,7 @@ const setNameDictionary: SetNameDictionary = {
     'Mystery Booster': 'mb1',
     'Modern Horizons 3 Commander': 'm3c',
     'Outlaws of Thunder Junction: The Big Score': 'big',
+    'Outlaws of Thunder Junction: Breaking News': 'otp',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
     'Secret Lair Drop Series': 'sld',
