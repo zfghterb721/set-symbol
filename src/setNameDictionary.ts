@@ -71,6 +71,7 @@ const setNameDictionary: SetNameDictionary = {
     'Dungeons & Dragons: Adventures in the Forgotten Realms': 'afr',
     'Dungeons & Dragons: Adventures in the Forgotten Realms Commander': 'afc',
     'Innistrad: Midnight Hunt Commander': 'mic',
+    'Innistrad: Crimson vow Commander': 'voc',
     'Kaladesh Prerelease Promos': 'kld',
     'Kamigawa: Neon Dynasty Commander': 'nec',
     'Magic 2019 Gift Pack': 'm19',
@@ -84,5 +85,6 @@ const setNameDictionary: SetNameDictionary = {
     'The Lord of the Rings: Tales of Middle-Earth Commander': 'ltc',
     'Secret Lair Drop Series': 'sld',
     'Streets of New Capenna Commander': 'ncc',
+    'Warhammer 40,000': '40k',
     
 };
