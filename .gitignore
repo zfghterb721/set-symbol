@@ -172,6 +172,7 @@ dist
 
 .wrangler
 SetList.json
+ScySets.json
 src/mtg_json_setcode.json
 src/svg_data.json
 temp
