@@ -1,7 +1,12 @@
+## Quick Start
+This project is deployed and available at: https://symbol.ah.games/
+
+You access icons by calling the url like: `https://symbol.ah.games/symbol/mtg?setName=Bloomburrow` just replace the setName query parameter with the name or abbreviation of the set you want. Most BinderPOS/MTGJSON/TCGplayer naming conventions are recognized, if something is missing just report it here or add it yourself.
+
 This repo grabs MTG set symbols and makes them publically available on a cloudflare worker for quick embedding in web apps. We use it to embed set symbols into our Shopify Pullsheets.
 ## Requirements
 I run all this in linux, and have node v20.14.0 installed. You'll need a cloudflare account if you want to run/host this yourself.
-## Quick Start
+## Developing
 Pull in keyrune submodule
 ```
 git submodule init 
