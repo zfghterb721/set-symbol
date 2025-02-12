@@ -34,6 +34,8 @@ const setNameDictionary: SetNameDictionary = {
     'Conflux': 'con_',
     'con': 'con_',
     'Aether Revolt Tokens': 'aer',
+    'Aetherdrift': 'dft',
+    'Aetherdrift Commander': 'drc',
     'Alara Reborn Tokens': 'aer',
     'Aether Revolt Prerelease Promos': 'aer',
     'Amonkhet Tokens': 'akh',
