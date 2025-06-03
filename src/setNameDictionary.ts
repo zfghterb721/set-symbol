@@ -84,6 +84,7 @@ const setNameDictionary: SetNameDictionary = {
     'Outlaws of Thunder Junction: The Big Score': 'big',
     'Outlaws of Thunder Junction: Breaking News': 'otp',
     'Tarkir: Dragonstorm': 'tdm',
+    'Tarkir: Dragonstorm Commander': 'tdc',
     'The Lord of the Rings: Tales of Middle-Earth': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Showcase Scrolls': 'ltr',
     'The Lord of the Rings: Tales of Middle-Earth Commander': 'ltc',
