@@ -83,6 +83,8 @@ const setNameDictionary: SetNameDictionary = {
     'Innistrad Remastered': 'inr',
     'Kaladesh Prerelease Promos': 'kld',
     'Kamigawa: Neon Dynasty Commander': 'nec',
+    'Lorwyn Eclipsed': 'ecl',
+    'Lorwyn Eclipsed Commander': 'ecc',
     'Magic 2019 Gift Pack': 'm19',
     'Magic 2019 Standard Showdown': 'pmei',
     'Mystery Booster': 'mb1',
